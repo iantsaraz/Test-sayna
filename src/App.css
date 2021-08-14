@@ -1,38 +1,181 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
 }
+.top {
+	overflow: hidden;
+}
+.bg {
+	background-color: rgb(220, 250, 191);
+}
+.bg1 {
+	background-color: rgb(124, 224, 255);
+}
+.bg2 {
+	background-color: rgb(235, 191, 250);
+}
+.bg3 {
+	background-color: rgb(220, 250, 191);
+}
+.bg4 {
+	background-color: rgb(250, 246, 191);
+}
+.bg5 {
+	background-color: rgb(250, 217, 191);
+}
+.bg6 {
+	background-color: rgb(218, 191, 250);
+}
+
+.number1 {
+	font-size: 3rem;
+	color: rgb(73, 192, 228);
+}
+.number2 {
+	font-size: 3rem;
+	color: rgb(227, 153, 252);
+}
+.number3 {
+	font-size: 3rem;
+	color: rgb(178, 235, 124);
+}
+.navbar-brand {
+	color: #ef476f !important;
+	font-size: 25px !important;
+	font-weight: 800 !important;
+}
+.text {
+	font-size: small;
+	font-weight: 600;
+}
+.text2 {
+	color: rgb(47, 144, 255);
+}
+.p1 {
+	font-size: small !important;
+	font-weight: 800;
+}
+.hello {
+	font-size: small;
+	font-weight: 400;
+}
+.text-insu {
+	font-size: 3rem;
+	font-weight: 800;
+}
+.Header {
+	margin-left: 10rem;
+	width: 40% !important;
+}
+.img {
+	width: 100% !important;
+	position: relative;
+	bottom: 200px;
+	left: 60px;
+}
+.img-container {
+	height: 500px !important;
+}
+.img-container2 {
+	position: relative;
+	top: 50px;
+	width: 600px !important;
+}
+.img2 {
+	position: relative;
+	width: 800px !important;
+	height: fit-content !important;
+}
+.btn {
+	background: rgb(180, 58, 161);
+	background: linear-gradient(
+		317deg,
+		rgba(180, 58, 161, 1) 0%,
+		rgba(200, 46, 116, 1) 0%,
+		rgba(244, 46, 179, 1) 7%,
+		rgba(252, 176, 69, 1) 100%
+	);
+}
+.top-head {
+	height: 400px;
+}
+.cont {
+	width: 100% !important;
+}
+.section2 {
+	background-color: rgb(236, 244, 247);
+}
+.card-text {
+	font-size: small;
+}
+.section3{overflow: hidden;}
+.section2{overflow: hidden;}
+.section4{background-image: url(./assets/img/Composed-layer-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x:20rem;
+height: 500px;}
+.quote{margin-left: 10rem;}
+.box{width: 50rem; height: 5rem;}
+.section5{height: 15rem;}
+.btn1{background-color: rgb(102, 233, 135);
+height: 50px;
+width: 170px;
+font-size:15 px;}
+.shield{position: relative;
+  bottom:25px;
+  right: 43px;
+}
+.but1{background-color: 	 rgb(141, 236, 52);;}
+.num1{background-color: 	 rgb(196, 241, 153);;}
+.prix1{color:  rgb(141, 236, 52);;}
+.prix2{color:	 rgb(236, 153, 52);;}
+.but2{background-color: 	 rgb(236, 153, 52);;}
+.num2{background-color: 	 rgb(241, 200, 153);;}
+.prix3{color:rgb(52, 168, 236);;}
+.but3{background-color: 	 rgb(52, 168, 236);;}
+.num3{background-color: 	 rgb(153, 206, 241);;}
+.section6{background-image: url(./assets/img/Composed-layer-3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+height: 900px;}
